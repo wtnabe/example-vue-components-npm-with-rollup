@@ -1,0 +1,24 @@
+{
+  "main": "dist/index.js",
+  "module": "dist/awesome-vue-components.esm.min.js",
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@vue/babel-preset-app": "^4.3.1",
+    "@vue/test-utils": "^1.0.3",
+    "babel-jest": "^26.0.1",
+    "babel-preset-power-assert": "^3.0.0",
+    "jest": "^26",
+    "power-assert": "^1.6.1",
+    "rollup": "^2.18.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-terser": "^6.1.0",
+    "rollup-plugin-vue": "<6",
+    "vue": "^2.6.11",
+    "vue-jest": "^4.0.0-beta.3",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "scripts": {
+    "pkg": "rollup -c",
+    "test": "jest"
+  }
+}
